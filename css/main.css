@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: Inter, Verdana, Arial, sans-serif;
+    background-color: #c7b5a6;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-header {
+    background-color: #ac998a;
+}
+.about {
+    background-color: #beada3;
+}
+.image-container img {
+    width: 250px;
+    cursor: pointer;
+    user-select: none;
+}
+.footer {
+    background-color: #9c9c9caf;
+}
+.ex-section {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.clicker-section {
+    background-color: #b49b8c;
+    margin-bottom: 15px;
+}
+.clicker-result {
+    display: none;
+}
+.clicker-result-on {
+    display: block;
+    background-color: #a38370;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.reset-btn {
+    background-color: #bea08e;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
